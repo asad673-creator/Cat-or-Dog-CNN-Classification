@@ -1,0 +1,82 @@
+# Python
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+
+venv/
+env/
+.venv/
+ENV/
+
+# Jupyter Notebook
+
+.ipynb_checkpoints/
+
+# Datasets
+
+data/
+dataset/
+datasets/
+*.csv
+*.xlsx
+*.xls
+*.zip
+*.tar
+*.gz
+
+# Machine Learning / Deep Learning models
+
+*.h5
+*.hdf5
+*.keras
+*.pkl
+*.pickle
+*.joblib
+*.onnx
+*.pt
+*.pth
+*.ckpt
+
+# TensorFlow
+
+checkpoint/
+checkpoints/
+logs/
+runs/
+
+# IDEs
+
+.vscode/
+.idea/
+
+# OS files
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python distribution
+
+build/
+dist/
+*.egg-info/
+
+# Environment files
+
+.env
+.env.*
+
+# Temporary files
+
+*.tmp
+*.temp
+*.log
+
+# Generated images / outputs
+
+outputs/
+results/
+predictions/
