@@ -62,7 +62,7 @@ The dataset is **not included in this repository** because of its size.
 
 You can download the dataset from the following Google Drive link:
 
-**Dataset:** [PASTE GOOGLE DRIVE DATASET LINK HERE]
+**Dataset:** https://drive.google.com/drive/folders/1L5QZfAvUXmJ1gmSpBJWj79iaTShNp8ik?usp=drive_link
 
 After downloading the dataset, place it in the appropriate dataset folder before running the project.
 
