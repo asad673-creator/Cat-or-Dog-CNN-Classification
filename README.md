@@ -59,10 +59,12 @@ The project includes image preprocessing, resizing, CNN model training, and imag
 ### Dataset
 
 The dataset is **not included in this repository** because of its size.
+The 'cnn_model.pkl' is **not included in this repository** because of its size.
 
-You can download the dataset from the following Google Drive link:
+You can download the dataset and cnn_model.pkl from the following Google Drive link:
 
 **Dataset:** https://drive.google.com/drive/folders/1L5QZfAvUXmJ1gmSpBJWj79iaTShNp8ik?usp=drive_link
+**Model:** https://drive.google.com/file/d/1o8_7pbEOz8RtU1J2CM91PdnzK2OD4ev2/view?usp=drive_link
 
 After downloading the dataset, place it in the appropriate dataset folder before running the project.
 
