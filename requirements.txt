@@ -2,7 +2,7 @@ numpy
 pandas
 matplotlib
 scikit-learn
-tensorflow==2.19.0
+tensorflow
 opencv-python
 Pillow
 jupyter
