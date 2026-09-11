@@ -1,0 +1,32 @@
+
+import streamlit as st
+from tensorflow.keras.models import load_model
+from tensorflow.keras.preprocessing import image
+import numpy as np
+from PIL import Image
+
+st.title("Bone Fracture Detection")
+st.write("Upload an X-ray image to predict whether a fracture is present.")
+model = load_model("bone-fracture.keras")
+uploaded_file = st.file_uploader(
+    "Upload X-ray Image", type=["jpg", "jpeg", "png"]
+ )
+
+if uploaded_file is not None:
+     img = Image.open(uploaded_file)
+     st.image(img, caption="Uploaded X-Ray", width=400)
+
+# Preprocess the image for the model
+     img = img.resize((256, 256))
+     img = img.convert("RGB")
+     img_array = image.img_to_array(img)
+     img_array = img_array / 255.0  # Normalize to [0, 1]
+     img_array = np.expand_dims(img_array, axis=0)  # Add batch dimension
+
+     if st.button("Predict"):
+         prediction = model.predict(img_array)
+         if prediction[0][0] > 0.5:
+             st.error("Prediction: Fracture")
+         else:
+             st.success("Prediction: No Fracture")
+
