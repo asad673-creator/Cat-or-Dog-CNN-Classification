@@ -1,4 +1,4 @@
-### 2. Cats vs Dogs CNN
+###  Cats vs Dogs CNN
 
 A **Convolutional Neural Network (CNN)** project for classifying images as either **Cats or Dogs**.
 
